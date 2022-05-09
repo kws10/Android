@@ -35,7 +35,7 @@ public class Restaurant extends AppCompatActivity {
     private void setUpdata(){
 
         Res_class budae = new Res_class("0","budae",R.drawable.ic_launcher_background);
-        Res_class budae2 = new Res_class("1","sax",R.drawable.ic_launcher_background);
+        Res_class budae2 = new Res_class("1","legend",R.drawable.ic_launcher_background);
         res_list.add(budae);
         res_list.add(budae2);
     }
