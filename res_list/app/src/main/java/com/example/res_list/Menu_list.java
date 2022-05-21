@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 
 import android.widget.ListView;
+import android.widget.SearchView;
 
 
 import java.util.ArrayList;
@@ -25,6 +26,8 @@ public class Menu_list extends AppCompatActivity  {
         getSelectedRestaurant();
 
         setUpList();
+
+        search_res();
 
     }
 
@@ -46,5 +49,33 @@ public class Menu_list extends AppCompatActivity  {
 
         selectedRestaurant = Restaurant.res_list.get(Integer.valueOf(id));
     }
+
+    private void search_res(){
+        SearchView searchView = findViewById(R.id.menu_search_view);
+        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+            @Override
+            public boolean onQueryTextSubmit(String query) {
+                return false;
+            }
+
+            @Override
+            public boolean onQueryTextChange(String newText) {
+
+                ArrayList<Menu_Class> filterRes = new ArrayList<>();
+                for (int i = 0; i< selectedRestaurant.menu_list.size(); i++){
+                    Menu_Class menu = selectedRestaurant.menu_list.get(i);
+
+                    if(menu.getName().toLowerCase().contains(newText.toLowerCase())) {
+                        filterRes.add(menu);
+                    }
+                }
+
+                Menu_Adapter adapter = new Menu_Adapter(getApplicationContext(),0,filterRes);
+                listView.setAdapter(adapter);
+                return false;
+            }
+        });
+    }
+
 
 }

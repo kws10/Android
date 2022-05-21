@@ -68,7 +68,7 @@ public class Restaurant extends AppCompatActivity  {
         Menu_Class budae_menu2 = new Menu_Class(1,"제육볶음",R.drawable.budae);
         budae_menu_list.add(budae_menu);
         budae_menu_list.add(budae_menu2);
-        Res_class budae = new Res_class("0","부대통령 부대찌개",R.drawable.budae,37.541,126.986,1,1,budae_menu_list);
+        Res_class budae = new Res_class("0","부대통령 부대찌개",R.drawable.budae,37.541,126.986,1,0,budae_menu_list);
         res_list.add(budae);
 
         Menu_Class lotte_menu = new Menu_Class(1,"데리버거",R.drawable.budae);
