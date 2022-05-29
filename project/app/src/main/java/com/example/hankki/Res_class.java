@@ -7,7 +7,7 @@ public class Res_class {
     private String Res_name; // 가게 이름
     private int Res_img; // 가게 이미지
     public double latitude; // 가게 lat좌표
-    public double longitude; // 가게 long좌표
+    private double longitude; // 가게 long좌표
     private String Res_address; // 가게 실제 주소
     private int genre; // 음식종류 ex) 1:한식 2:중식 3:양식
     private int spicy; // 매움 1 안매움 0

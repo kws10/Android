@@ -21,9 +21,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         RestaurantActivity.res_list.clear();
-        RestaurantActivity.budae_menu_list.clear();
-        RestaurantActivity.cupo_menu_list.clear();
-        RestaurantActivity.lotte_menu_list.clear();
 
         // 하단바 버튼 기능
         ImageButton matchingBtn = (ImageButton) findViewById(R.id.matchingBtn);

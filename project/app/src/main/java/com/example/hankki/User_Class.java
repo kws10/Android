@@ -6,17 +6,13 @@ public class User_Class {
        private String name;
        private int genre;
        private int spicy;
-       public double latitude;
-       public double longitude;
 
-       public User_Class(String id, String password, String name, int genre, int spicy, double latitude, double longitude){
+       public User_Class(String id, String password, String name, int genre, int spicy){
             this.id =  id;
             this.password = password;
             this.name = name;
             this.genre = genre;
             this.spicy = spicy;
-            this.latitude = latitude;
-            this.longitude = longitude;
        }
 
        public String getId() {
@@ -31,13 +27,9 @@ public class User_Class {
               return name;
        }
 
-       public int getSpicy() {
+    public int getSpicy() {
               return spicy;
        }
-
-       public double getLatitude() { return latitude; }
-
-       public double getLongitude() { return longitude; }
 }
 
 

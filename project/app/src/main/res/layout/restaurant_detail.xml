@@ -3,65 +3,47 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
     tools:context=".Res_Detail">
 
-    <ScrollView
+    <TextView
+        android:id="@+id/res_detail_name"
+        android:layout_width="409dp"
+        android:layout_height="52dp"
+        android:layout_above="@+id/googleMap"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="-356dp"
+        android:gravity="center"
+        android:text="식당이름"
+        android:textColor="@color/purple_200"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/res_detail_img"
+        android:layout_width="409dp"
+        android:layout_height="211dp"
+        android:layout_alignStart="@+id/res_detail_name"
+        android:layout_alignEnd="@+id/res_detail_name"
+        android:layout_marginStart="-1dp"
+        android:layout_marginEnd="0dp" />
+
+    <fragment
+        android:id="@+id/googleMap"
+        class="com.google.android.gms.maps.MapFragment"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="306dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="0dp" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <fragment
-                android:id="@+id/googleMap"
-                class="com.google.android.gms.maps.MapFragment"
-                android:layout_width="match_parent"
-                android:layout_height="300dp"
-                android:layout_marginEnd="0dp" />
-
-            <ImageView
-                android:id="@+id/res_detail_img"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginStart="-1dp"
-                android:layout_marginEnd="0dp" />
-
-            <TextView
-                android:id="@+id/res_detail_name"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginEnd="0dp"
-                android:layout_marginBottom="0dp"
-                android:fontFamily="@font/jalnan"
-                android:gravity="center"
-                android:text="식당이름"
-                android:textColor="@color/black"
-                android:textSize="30sp" />
-
-        </LinearLayout>
-
-    </ScrollView>
-
-    <LinearLayout
+    <Button
+        android:id="@+id/menu_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom"
-        android:orientation="vertical"
-        android:visibility="visible"
-        android:layout_alignParentBottom="true">
+        android:layout_alignParentBottom="true"
+        android:text="메뉴 보기"/>
 
-        <Button
-            android:id="@+id/menu_btn"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/jalnan"
-            android:gravity="bottom"
-            android:text="메뉴 보기" />
 
-    </LinearLayout>
 
 
 </RelativeLayout>

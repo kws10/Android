@@ -33,9 +33,6 @@ public class CafeteriaActivity extends AppCompatActivity {
         setContentView(R.layout.activity_cafeteria);
 
         RestaurantActivity.res_list.clear();
-        RestaurantActivity.budae_menu_list.clear();
-        RestaurantActivity.cupo_menu_list.clear();
-        RestaurantActivity.lotte_menu_list.clear();
 
         fragmentH = new HanbitFragment();
         fragmentB = new ByeolbitFragment();
