@@ -36,7 +36,7 @@ public class RestaurantActivity extends AppCompatActivity {
     public static ArrayList<Menu_Class> budae_menu_list = new ArrayList<>();
     public static ArrayList<Menu_Class> lotte_menu_list = new ArrayList<>();
     public static ArrayList<Menu_Class> cupo_menu_list = new ArrayList<>();
-    public static User_Class user = new User_Class("id", "1234", "이상호", 1, 0, 37.6412, 126.982);
+    public static User_Class user = new User_Class("id", "1234", "이상호",37.6412, 126.982);
 
     ListView listView;
 

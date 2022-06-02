@@ -9,12 +9,10 @@ public class User_Class {
        public double latitude;
        public double longitude;
 
-       public User_Class(String id, String password, String name, int genre, int spicy, double latitude, double longitude){
+       public User_Class(String id, String password, String name, double latitude, double longitude){
             this.id =  id;
             this.password = password;
             this.name = name;
-            this.genre = genre;
-            this.spicy = spicy;
             this.latitude = latitude;
             this.longitude = longitude;
        }
@@ -31,6 +29,8 @@ public class User_Class {
               return genre;
        }
 
+       public void setGenre(int genre) { this.genre = genre; }
+
        public String getName() {
               return name;
        }
@@ -39,7 +39,11 @@ public class User_Class {
               return spicy;
        }
 
+       public void setSpicy(int spicy) {  this.spicy = spicy; }
+
        public double getLatitude() { return latitude; }
+
+       public void setLatitude(double latitude) { this.latitude = latitude; }
 
        public double getLongitude() { return longitude; }
 }

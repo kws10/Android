@@ -2,26 +2,32 @@ package com.example.hankki;
 
 import android.content.Intent;
 import android.os.Bundle;
-import androidx.fragment.app.FragmentActivity;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
+
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.ImageButton;
 
-
-
-public class MatchingActivity extends FragmentActivity {
+public class PersonalActivity extends AppCompatActivity {
 
     @Override protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_matching);
-
+        setContentView(R.layout.activity_personal);
 
         RestaurantActivity.res_list.clear();
-        RestaurantActivity.budae_menu_list.clear();
-        RestaurantActivity.cupo_menu_list.clear();
-        RestaurantActivity.lotte_menu_list.clear();
 
         // 하단바 버튼 기능
-
+        ImageButton matchingBtn = (ImageButton) findViewById(R.id.matchingBtn);
+        matchingBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), MatchingActivity.class);
+                startActivity(intent);
+            }
+        });
         ImageButton cafeteriaBtn = (ImageButton) findViewById(R.id.cafeteriaBtn);
         cafeteriaBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -46,13 +52,6 @@ public class MatchingActivity extends FragmentActivity {
                 startActivity(intent);
             }
         });
-        ImageButton personalBtn = (ImageButton) findViewById(R.id.personalBtn);
-        personalBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), PersonalActivity.class);
-                startActivity(intent);
-            }
-        });
     }
+
 }

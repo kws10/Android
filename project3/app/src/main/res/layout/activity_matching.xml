@@ -8,10 +8,6 @@
     android:orientation="vertical"
     tools:context=".MatchingActivity">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Matching" />
 
     <View
         android:id="@+id/titleDivider3"
@@ -19,17 +15,13 @@
         android:layout_height="1dp"
         android:background="?android:attr/listDivider" />
 
-    <LinearLayout
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager"
         android:layout_width="match_parent"
-        android:layout_height="653dp"
-        android:orientation="vertical">
+        android:layout_height="721dp" />
 
-        <androidx.viewpager2.widget.ViewPager2
-            android:id="@+id/viewpager"
-            android:layout_width="match_parent"
-            android:layout_height="200dp" />
-
-    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -56,7 +48,7 @@
                 android:layout_weight="1"
                 android:backgroundTint="#00FFFFFF"
                 android:scaleType="fitCenter"
-                app:srcCompat="@drawable/matching"
+                android:src="@drawable/matching"
                 app:tint="#757575" />
 
             <ImageButton
@@ -66,7 +58,7 @@
                 android:layout_weight="1"
                 android:backgroundTint="#00FFFFFF"
                 android:scaleType="fitCenter"
-                app:srcCompat="@drawable/cafeteria"
+                android:src="@drawable/cafeteria"
                 app:tint="#757575" />
 
             <ImageButton
@@ -76,7 +68,7 @@
                 android:layout_weight="1"
                 android:backgroundTint="#00FFFFFF"
                 android:scaleType="fitCenter"
-                app:srcCompat="@drawable/home"
+                android:src="@drawable/home"
                 app:tint="#757575" />
 
             <ImageButton
@@ -86,7 +78,7 @@
                 android:layout_weight="1"
                 android:backgroundTint="#00FFFFFF"
                 android:scaleType="fitCenter"
-                app:srcCompat="@drawable/restaurant" />
+                android:src="@drawable/restaurant" />
 
             <ImageButton
                 android:id="@+id/personalBtn"
@@ -95,7 +87,7 @@
                 android:layout_weight="1"
                 android:backgroundTint="#00FFFFFF"
                 android:scaleType="fitCenter"
-                app:srcCompat="@drawable/profile"
+                android:src="@drawable/profile"
                 app:tint="#757575" />
 
         </LinearLayout>
