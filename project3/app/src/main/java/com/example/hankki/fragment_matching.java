@@ -1,5 +1,6 @@
 package com.example.hankki;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -23,6 +24,8 @@ public class fragment_matching extends Fragment {
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
+
+    public static int toggle=0;
 
     public fragment_matching() {
         // Required empty public constructor
@@ -62,8 +65,13 @@ public class fragment_matching extends Fragment {
         View view = inflater.inflate(R.layout.fragment_matching, container, false);
         Button match_btn = view.findViewById(R.id.match_btn);
 
-
-
+        match_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent showDetail = new Intent(getContext(), RestaurantActivity.class);
+                startActivity(showDetail);
+            }
+        });
 
         //return inflater.inflate(R.layout.fragment_preference, container, false);
         return view;

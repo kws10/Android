@@ -50,7 +50,6 @@ public class MatchingActivity extends FragmentActivity {
         RestaurantActivity.cupo_menu_list.clear();
         RestaurantActivity.lotte_menu_list.clear();
 
-
         // 하단바 버튼 기능
         ImageButton cafeteriaBtn = (ImageButton) findViewById(R.id.cafeteriaBtn);
         cafeteriaBtn.setOnClickListener(new View.OnClickListener() {

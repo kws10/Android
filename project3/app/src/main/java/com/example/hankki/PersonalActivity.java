@@ -19,6 +19,7 @@ public class PersonalActivity extends AppCompatActivity {
 
         RestaurantActivity.res_list.clear();
 
+
         // 하단바 버튼 기능
         ImageButton matchingBtn = (ImageButton) findViewById(R.id.matchingBtn);
         matchingBtn.setOnClickListener(new View.OnClickListener() {

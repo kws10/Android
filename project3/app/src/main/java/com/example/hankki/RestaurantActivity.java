@@ -38,7 +38,7 @@ public class RestaurantActivity extends AppCompatActivity {
     public static ArrayList<Menu_Class> cupo_menu_list = new ArrayList<>();
     public static User_Class user = new User_Class("id", "1234", "이상호",37.6412, 126.982);
 
-    ListView listView;
+    public static ListView listView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -108,7 +108,7 @@ public class RestaurantActivity extends AppCompatActivity {
         Menu_Class lotte_menu2 = new Menu_Class(1, "치즈버거", R.drawable.budae);
         lotte_menu_list.add(lotte_menu);
         lotte_menu_list.add(lotte_menu2);
-        Res_class lotte = new Res_class("1", "롯데리아", R.drawable.lotte, 0, 126.986, 3, 0, lotte_menu_list,4.5F);
+        Res_class lotte = new Res_class("1", "lotte", R.drawable.lotte, 0, 126.986, 3, 0, lotte_menu_list,4.5F);
         res_list.add(lotte);
 
         Menu_Class cupo_menu = new Menu_Class(1, "두루치기", R.drawable.budae);
@@ -147,8 +147,8 @@ public class RestaurantActivity extends AppCompatActivity {
 
             @Override
             public boolean onQueryTextChange(String newText) {
-
                 ArrayList<Res_class> filterRes = new ArrayList<>();
+
                 for (int i = 0; i < res_list.size(); i++) {
                     Res_class res = res_list.get(i);
 
@@ -161,6 +161,8 @@ public class RestaurantActivity extends AppCompatActivity {
                 listView.setAdapter(adapter);
                 return false;
             }
+
+
         });
     }
 
@@ -179,7 +181,8 @@ public class RestaurantActivity extends AppCompatActivity {
 
     private void check_option(){
 
-        Button find_btn = findViewById(R.id.find_btn);
+        Button reset_btn = findViewById(R.id.reset_btn);
+        Button mylist_btn = findViewById(R.id.match_btn);
 
         CheckBox check_dist = (CheckBox) findViewById(R.id.check_dist);
         CheckBox check_star = findViewById(R.id.check_star);
@@ -188,7 +191,8 @@ public class RestaurantActivity extends AppCompatActivity {
         CheckBox usa = findViewById(R.id.usa_genre);
 
 
-        find_btn.setOnClickListener(new View.OnClickListener() { //초기화 버튼
+
+        reset_btn.setOnClickListener(new View.OnClickListener() { //초기화 버튼
             @Override
             public void onClick(View v) {
 
