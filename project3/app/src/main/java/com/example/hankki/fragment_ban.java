@@ -95,7 +95,8 @@ public class fragment_ban extends Fragment {
 
         // Inflate the layout for this fragment
 
-        if
+        
+
 
 
         return view;
