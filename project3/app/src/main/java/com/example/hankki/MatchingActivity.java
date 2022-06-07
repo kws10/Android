@@ -27,7 +27,7 @@ public class MatchingActivity extends FragmentActivity {
 
         viewpager = findViewById(R.id.viewpager);
 
-        viewpager.setOffscreenPageLimit(5);
+        viewpager.setOffscreenPageLimit(6);
 
         MyPagerAdapter adapter = new MyPagerAdapter(getSupportFragmentManager());
 

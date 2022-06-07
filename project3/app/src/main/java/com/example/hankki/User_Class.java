@@ -7,7 +7,7 @@ public class User_Class {
        private int genre; // 1:한식 2:중식 3:양식 4:일식 5:분식
        private int spicy;
        private int salty;
-       private int sea; // 해산물 여부 0,1
+       private int sea; // 해산물 여부 0,1  1이 못먹는거고 0이 먹는거로 하자.
        private int mush; // 버섯 여부 0,1
        private int cucum; // 오이 여부 0,1
        private int gosu; // 고수 여부 0,1

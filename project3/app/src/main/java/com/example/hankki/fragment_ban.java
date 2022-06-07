@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.CompoundButton;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 
@@ -69,6 +70,8 @@ public class fragment_ban extends Fragment {
         CheckBox gosu_btn = view.findViewById(R.id.gosu_btn);
         CheckBox gut_btn = view.findViewById(R.id.gut_btn);
 
+        Button next_btn = view.findViewById(R.id.bannext_btn);
+
        /* if(RestaurantActivity.user.getSea() == 1){
             sea_btn.setChecked(true);
         }
@@ -95,8 +98,82 @@ public class fragment_ban extends Fragment {
 
         // Inflate the layout for this fragment
 
-        
+        if(RestaurantActivity.user.getSea() == 1){
+            sea_btn.setChecked(true);
+        }
 
+        if(RestaurantActivity.user.getMush() == 1){
+            mush_btn.setChecked(true);
+        }
+
+        if(RestaurantActivity.user.getCucum() == 1){
+            cucum_btn.setChecked(true);
+        }
+
+        if(RestaurantActivity.user.getGosu() == 1){
+            gosu_btn.setChecked(true);
+        }
+
+        if(RestaurantActivity.user.getGut() == 1){
+            gut_btn.setChecked(true);
+        }
+
+        sea_btn.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                if(buttonView.isChecked())
+                    RestaurantActivity.user.setSea(1);
+                else if(!buttonView.isChecked())
+                    RestaurantActivity.user.setSea(0);
+            }
+        });
+
+        mush_btn.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                if(buttonView.isChecked())
+                    RestaurantActivity.user.setMush(1);
+                else if(!buttonView.isChecked())
+                    RestaurantActivity.user.setMush(0);
+            }
+        });
+
+        cucum_btn.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                if(buttonView.isChecked())
+                    RestaurantActivity.user.setCucum(1);
+                else if(!buttonView.isChecked())
+                    RestaurantActivity.user.setCucum(0);
+            }
+        });
+
+        gosu_btn.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                if(buttonView.isChecked())
+                    RestaurantActivity.user.setGosu(1);
+                else if(!buttonView.isChecked())
+                    RestaurantActivity.user.setGosu(0);
+            }
+        });
+
+        gut_btn.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                if(buttonView.isChecked())
+                    RestaurantActivity.user.setGut(1);
+                else if(!buttonView.isChecked())
+                    RestaurantActivity.user.setGut(0);
+            }
+        });
+
+        next_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                MatchingActivity.viewpager.setCurrentItem(5,true);
+            }
+        });
 
 
         return view;

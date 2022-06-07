@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         TextView genre = findViewById(R.id.genre);
 
         spicy.setText(String.valueOf(RestaurantActivity.user.getSea()));
-        genre.setText(String.valueOf(RestaurantActivity.user.getGenre()));
+        genre.setText(String.valueOf(RestaurantActivity.user.getMush()));
 
         // 하단바 버튼 기능
         ImageButton matchingBtn = (ImageButton) findViewById(R.id.matchingBtn);

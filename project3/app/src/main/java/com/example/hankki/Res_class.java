@@ -12,7 +12,7 @@ public class Res_class {
     private int genre; // 음식종류 ex) 1:한식 2:중식 3:양식 4:일식 5:분식
     private int spicy; // 매움 0~4
     private int salty; // 짠 정도 0~4
-    private int sea; // 해산물 0,1
+    private int sea; // 해산물 0,1 1이 해산물 있는거 0이 없는거
     private int mush; // 버섯 0,1
     private int cucum; // 오이 0,1
     private int gosu; // 고수 0,1
