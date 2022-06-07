@@ -95,45 +95,7 @@ public class fragment_ban extends Fragment {
 
         // Inflate the layout for this fragment
 
-        if(sea_btn.isChecked()){ // 0 == 못먹는다 체크되면 못먹는다.
-            RestaurantActivity.user.setSea(0);
-        }
-
-        else{ // 체크 안돼있으면 먹을수 있다.
-            RestaurantActivity.user.setSea(1);
-        }
-
-        if(mush_btn.isChecked()){
-            RestaurantActivity.user.setMush(0);
-        }
-
-        else{
-            RestaurantActivity.user.setMush(1);
-        }
-
-        if(cucum_btn.isChecked()){
-            RestaurantActivity.user.setCucum(0);
-        }
-
-        else{
-            RestaurantActivity.user.setCucum(1);
-        }
-
-        if(gosu_btn.isChecked()){
-            RestaurantActivity.user.setGosu(0);
-        }
-
-        else{
-            RestaurantActivity.user.setGosu(1);
-        }
-
-        if(gut_btn.isChecked()){
-            RestaurantActivity.user.setGut(0);
-        }
-
-        else{
-            RestaurantActivity.user.setGut(1);
-        }
+        if
 
 
         return view;
