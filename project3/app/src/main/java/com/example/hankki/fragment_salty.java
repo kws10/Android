@@ -1,21 +1,19 @@
 package com.example.hankki;
 
 import android.os.Bundle;
-
-import androidx.fragment.app.Fragment;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.SeekBar;
-import android.widget.TextView;
+
+import androidx.fragment.app.Fragment;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link fragment_spicy#newInstance} factory method to
+ * Use the {@link fragment_salty#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class fragment_spicy extends Fragment {
+public class fragment_salty extends Fragment {
 
     int a;
 
@@ -28,7 +26,7 @@ public class fragment_spicy extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public fragment_spicy() {
+    public fragment_salty() {
         // Required empty public constructor
     }
 
@@ -41,8 +39,8 @@ public class fragment_spicy extends Fragment {
      * @return A new instance of fragment fragment_1.
      */
     // TODO: Rename and change types and number of parameters
-    public static fragment_spicy newInstance(String param1, String param2) {
-        fragment_spicy fragment = new fragment_spicy();
+    public static fragment_salty newInstance(String param1, String param2) {
+        fragment_salty fragment = new fragment_salty();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -62,17 +60,17 @@ public class fragment_spicy extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_spicy, container, false);
+        View view = inflater.inflate(R.layout.fragment_salty, container, false);
 
-        SeekBar spicybar = (SeekBar) view.findViewById(R.id.spicybar);
+        SeekBar saltybar = (SeekBar) view.findViewById(R.id.saltybar);
 
-        spicybar.setProgress(RestaurantActivity.user.getSpicy());
+        saltybar.setProgress(RestaurantActivity.user.getSalty());
 
-        spicybar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
+        saltybar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
 
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
-                   RestaurantActivity.user.setSpicy(progress);
+                   RestaurantActivity.user.setSalty(progress);
             }
             @Override
             public void onStartTrackingTouch(SeekBar seekBar) {
@@ -80,7 +78,7 @@ public class fragment_spicy extends Fragment {
             }
             @Override
             public void onStopTrackingTouch(SeekBar seekBar) {
-                   MatchingActivity.viewpager.setCurrentItem(2,true);
+                   MatchingActivity.viewpager.setCurrentItem(3,true);
             }
         });
 

@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         TextView spicy = findViewById(R.id.spicy);
         TextView genre = findViewById(R.id.genre);
 
-        spicy.setText(String.valueOf(RestaurantActivity.user.getSpicy()));
+        spicy.setText(String.valueOf(RestaurantActivity.user.getSea()));
         genre.setText(String.valueOf(RestaurantActivity.user.getGenre()));
 
         // 하단바 버튼 기능
