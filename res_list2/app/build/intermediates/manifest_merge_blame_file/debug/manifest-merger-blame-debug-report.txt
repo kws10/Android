@@ -1,0 +1,149 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.res_list"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/sangholee/Documents/GitHub/android/res_list2/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/sangholee/Documents/GitHub/android/res_list2/app/src/main/AndroidManifest.xml
+10
+11    <!-- Include required permissions for Google Maps API to run. -->
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.android.gms:play-services-maps:18.0.2] /Users/sangholee/.gradle/caches/transforms-3/76fdcf0f73e3d547c71b316357038b79/transformed/play-services-maps-18.0.2/AndroidManifest.xml:23:5-79
+12-->[com.google.android.gms:play-services-maps:18.0.2] /Users/sangholee/.gradle/caches/transforms-3/76fdcf0f73e3d547c71b316357038b79/transformed/play-services-maps-18.0.2/AndroidManifest.xml:23:22-76
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->[com.google.android.gms:play-services-maps:18.0.2] /Users/sangholee/.gradle/caches/transforms-3/76fdcf0f73e3d547c71b316357038b79/transformed/play-services-maps-18.0.2/AndroidManifest.xml:24:5-67
+13-->[com.google.android.gms:play-services-maps:18.0.2] /Users/sangholee/.gradle/caches/transforms-3/76fdcf0f73e3d547c71b316357038b79/transformed/play-services-maps-18.0.2/AndroidManifest.xml:24:22-64
+14
+15    <uses-feature
+15-->[com.google.android.gms:play-services-maps:18.0.2] /Users/sangholee/.gradle/caches/transforms-3/76fdcf0f73e3d547c71b316357038b79/transformed/play-services-maps-18.0.2/AndroidManifest.xml:26:5-28:35
+16        android:glEsVersion="0x00020000"
+16-->[com.google.android.gms:play-services-maps:18.0.2] /Users/sangholee/.gradle/caches/transforms-3/76fdcf0f73e3d547c71b316357038b79/transformed/play-services-maps-18.0.2/AndroidManifest.xml:27:9-41
+17        android:required="true" />
+17-->[com.google.android.gms:play-services-maps:18.0.2] /Users/sangholee/.gradle/caches/transforms-3/76fdcf0f73e3d547c71b316357038b79/transformed/play-services-maps-18.0.2/AndroidManifest.xml:28:9-32
+18
+19    <queries>
+19-->[com.google.android.gms:play-services-maps:18.0.2] /Users/sangholee/.gradle/caches/transforms-3/76fdcf0f73e3d547c71b316357038b79/transformed/play-services-maps-18.0.2/AndroidManifest.xml:30:5-34:15
+20
+21        <!-- Needs to be explicitly declared on Android R+ -->
+22        <package android:name="com.google.android.apps.maps" />
+22-->[com.google.android.gms:play-services-maps:18.0.2] /Users/sangholee/.gradle/caches/transforms-3/76fdcf0f73e3d547c71b316357038b79/transformed/play-services-maps-18.0.2/AndroidManifest.xml:33:9-64
+22-->[com.google.android.gms:play-services-maps:18.0.2] /Users/sangholee/.gradle/caches/transforms-3/76fdcf0f73e3d547c71b316357038b79/transformed/play-services-maps-18.0.2/AndroidManifest.xml:33:18-61
+23    </queries>
+24
+25    <application
+25-->/Users/sangholee/Documents/GitHub/android/res_list2/app/src/main/AndroidManifest.xml:5:5-38:19
+26        android:allowBackup="true"
+26-->/Users/sangholee/Documents/GitHub/android/res_list2/app/src/main/AndroidManifest.xml:6:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.7.0] /Users/sangholee/.gradle/caches/transforms-3/b9e4376e452ce4f1a2bbb1fc4b534124/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+28        android:debuggable="true"
+29        android:icon="@mipmap/ic_launcher"
+29-->/Users/sangholee/Documents/GitHub/android/res_list2/app/src/main/AndroidManifest.xml:7:9-43
+30        android:label="@string/app_name"
+30-->/Users/sangholee/Documents/GitHub/android/res_list2/app/src/main/AndroidManifest.xml:8:9-41
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->/Users/sangholee/Documents/GitHub/android/res_list2/app/src/main/AndroidManifest.xml:9:9-54
+32        android:supportsRtl="true"
+32-->/Users/sangholee/Documents/GitHub/android/res_list2/app/src/main/AndroidManifest.xml:10:9-35
+33        android:testOnly="true"
+34        android:theme="@style/Theme.Res_list" >
+34-->/Users/sangholee/Documents/GitHub/android/res_list2/app/src/main/AndroidManifest.xml:11:9-46
+35        <activity
+35-->/Users/sangholee/Documents/GitHub/android/res_list2/app/src/main/AndroidManifest.xml:12:9-22:20
+36            android:name="com.example.res_list.MainActivity"
+36-->/Users/sangholee/Documents/GitHub/android/res_list2/app/src/main/AndroidManifest.xml:13:13-41
+37            android:exported="true"
+37-->/Users/sangholee/Documents/GitHub/android/res_list2/app/src/main/AndroidManifest.xml:14:13-36
+38            android:label="@string/title_activity_main"
+38-->/Users/sangholee/Documents/GitHub/android/res_list2/app/src/main/AndroidManifest.xml:15:13-56
+39            android:theme="@style/Theme.Res_list.NoActionBar" >
+39-->/Users/sangholee/Documents/GitHub/android/res_list2/app/src/main/AndroidManifest.xml:16:13-62
+40            <intent-filter>
+40-->/Users/sangholee/Documents/GitHub/android/res_list2/app/src/main/AndroidManifest.xml:17:13-21:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->/Users/sangholee/Documents/GitHub/android/res_list2/app/src/main/AndroidManifest.xml:18:17-69
+41-->/Users/sangholee/Documents/GitHub/android/res_list2/app/src/main/AndroidManifest.xml:18:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->/Users/sangholee/Documents/GitHub/android/res_list2/app/src/main/AndroidManifest.xml:20:17-77
+43-->/Users/sangholee/Documents/GitHub/android/res_list2/app/src/main/AndroidManifest.xml:20:27-74
+44            </intent-filter>
+45        </activity>
+46        <activity
+46-->/Users/sangholee/Documents/GitHub/android/res_list2/app/src/main/AndroidManifest.xml:23:9-25:40
+47            android:name="com.example.res_list.Menu_list"
+47-->/Users/sangholee/Documents/GitHub/android/res_list2/app/src/main/AndroidManifest.xml:24:13-38
+48            android:exported="false" />
+48-->/Users/sangholee/Documents/GitHub/android/res_list2/app/src/main/AndroidManifest.xml:25:13-37
+49        <activity
+49-->/Users/sangholee/Documents/GitHub/android/res_list2/app/src/main/AndroidManifest.xml:26:9-29:20
+50            android:name="com.example.res_list.Restaurant"
+50-->/Users/sangholee/Documents/GitHub/android/res_list2/app/src/main/AndroidManifest.xml:27:13-39
+51            android:exported="true" >
+51-->/Users/sangholee/Documents/GitHub/android/res_list2/app/src/main/AndroidManifest.xml:28:13-36
+52        </activity>
+53        <activity
+53-->/Users/sangholee/Documents/GitHub/android/res_list2/app/src/main/AndroidManifest.xml:31:9-33:39
+54            android:name="com.example.res_list.Res_Detail"
+54-->/Users/sangholee/Documents/GitHub/android/res_list2/app/src/main/AndroidManifest.xml:32:13-39
+55            android:exported="true" />
+55-->/Users/sangholee/Documents/GitHub/android/res_list2/app/src/main/AndroidManifest.xml:33:13-36
+56
+57        <meta-data
+57-->/Users/sangholee/Documents/GitHub/android/res_list2/app/src/main/AndroidManifest.xml:35:9-37:71
+58            android:name="com.google.android.geo.API_KEY"
+58-->/Users/sangholee/Documents/GitHub/android/res_list2/app/src/main/AndroidManifest.xml:36:13-58
+59            android:value="AIzaSyA67wZrd8OQ-QMni7EeW6sRDi3dL2KBKAk" />
+59-->/Users/sangholee/Documents/GitHub/android/res_list2/app/src/main/AndroidManifest.xml:37:13-68
+60        <!-- Needs to be explicitly declared on P+ -->
+61        <uses-library
+61-->[com.google.android.gms:play-services-maps:18.0.2] /Users/sangholee/.gradle/caches/transforms-3/76fdcf0f73e3d547c71b316357038b79/transformed/play-services-maps-18.0.2/AndroidManifest.xml:39:9-41:40
+62            android:name="org.apache.http.legacy"
+62-->[com.google.android.gms:play-services-maps:18.0.2] /Users/sangholee/.gradle/caches/transforms-3/76fdcf0f73e3d547c71b316357038b79/transformed/play-services-maps-18.0.2/AndroidManifest.xml:40:13-50
+63            android:required="false" />
+63-->[com.google.android.gms:play-services-maps:18.0.2] /Users/sangholee/.gradle/caches/transforms-3/76fdcf0f73e3d547c71b316357038b79/transformed/play-services-maps-18.0.2/AndroidManifest.xml:41:13-37
+64
+65        <activity
+65-->[com.google.android.gms:play-services-base:18.0.1] /Users/sangholee/.gradle/caches/transforms-3/ffe70ef51fdfc11e12725c673ccb85be/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+66            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+66-->[com.google.android.gms:play-services-base:18.0.1] /Users/sangholee/.gradle/caches/transforms-3/ffe70ef51fdfc11e12725c673ccb85be/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+67            android:exported="false"
+67-->[com.google.android.gms:play-services-base:18.0.1] /Users/sangholee/.gradle/caches/transforms-3/ffe70ef51fdfc11e12725c673ccb85be/transformed/play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+68            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+68-->[com.google.android.gms:play-services-base:18.0.1] /Users/sangholee/.gradle/caches/transforms-3/ffe70ef51fdfc11e12725c673ccb85be/transformed/play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+69
+70        <meta-data
+70-->[com.google.android.gms:play-services-basement:18.0.0] /Users/sangholee/.gradle/caches/transforms-3/26d9a639564b428ed238f08f71cfefe7/transformed/play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+71            android:name="com.google.android.gms.version"
+71-->[com.google.android.gms:play-services-basement:18.0.0] /Users/sangholee/.gradle/caches/transforms-3/26d9a639564b428ed238f08f71cfefe7/transformed/play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+72            android:value="@integer/google_play_services_version" />
+72-->[com.google.android.gms:play-services-basement:18.0.0] /Users/sangholee/.gradle/caches/transforms-3/26d9a639564b428ed238f08f71cfefe7/transformed/play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+73
+74        <provider
+74-->[androidx.emoji2:emoji2:1.0.0] /Users/sangholee/.gradle/caches/transforms-3/2c96a293c0a835e94af1ddc4d74ff22d/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+75            android:name="androidx.startup.InitializationProvider"
+75-->[androidx.emoji2:emoji2:1.0.0] /Users/sangholee/.gradle/caches/transforms-3/2c96a293c0a835e94af1ddc4d74ff22d/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+76            android:authorities="com.example.res_list.androidx-startup"
+76-->[androidx.emoji2:emoji2:1.0.0] /Users/sangholee/.gradle/caches/transforms-3/2c96a293c0a835e94af1ddc4d74ff22d/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+77            android:exported="false" >
+77-->[androidx.emoji2:emoji2:1.0.0] /Users/sangholee/.gradle/caches/transforms-3/2c96a293c0a835e94af1ddc4d74ff22d/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+78            <meta-data
+78-->[androidx.emoji2:emoji2:1.0.0] /Users/sangholee/.gradle/caches/transforms-3/2c96a293c0a835e94af1ddc4d74ff22d/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+79                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+79-->[androidx.emoji2:emoji2:1.0.0] /Users/sangholee/.gradle/caches/transforms-3/2c96a293c0a835e94af1ddc4d74ff22d/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+80                android:value="androidx.startup" />
+80-->[androidx.emoji2:emoji2:1.0.0] /Users/sangholee/.gradle/caches/transforms-3/2c96a293c0a835e94af1ddc4d74ff22d/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+81            <meta-data
+81-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/sangholee/.gradle/caches/transforms-3/bdba8a1b7f77d959878d5a52670cf96f/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+82                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+82-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/sangholee/.gradle/caches/transforms-3/bdba8a1b7f77d959878d5a52670cf96f/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+83                android:value="androidx.startup" />
+83-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/sangholee/.gradle/caches/transforms-3/bdba8a1b7f77d959878d5a52670cf96f/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+84        </provider>
+85    </application>
+86
+87</manifest>

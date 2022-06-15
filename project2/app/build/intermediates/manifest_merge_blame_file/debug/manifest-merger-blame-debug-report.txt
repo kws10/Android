@@ -1,0 +1,155 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.hankki"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/sangholee/Documents/GitHub/android/project2/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/sangholee/Documents/GitHub/android/project2/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/sangholee/Documents/GitHub/android/project2/app/src/main/AndroidManifest.xml:5:5-66
+11-->/Users/sangholee/Documents/GitHub/android/project2/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->/Users/sangholee/Documents/GitHub/android/project2/app/src/main/AndroidManifest.xml:6:5-80
+12-->/Users/sangholee/Documents/GitHub/android/project2/app/src/main/AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->/Users/sangholee/Documents/GitHub/android/project2/app/src/main/AndroidManifest.xml:7:5-78
+13-->/Users/sangholee/Documents/GitHub/android/project2/app/src/main/AndroidManifest.xml:7:22-76
+14    <!-- Include required permissions for Google Maps API to run. -->
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.android.gms:play-services-maps:18.0.2] /Users/sangholee/.gradle/caches/transforms-3/07ebee4c8956f15939337706672c70c7/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:23:5-79
+15-->[com.google.android.gms:play-services-maps:18.0.2] /Users/sangholee/.gradle/caches/transforms-3/07ebee4c8956f15939337706672c70c7/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:23:22-76
+16
+17    <uses-feature
+17-->[com.google.android.gms:play-services-maps:18.0.2] /Users/sangholee/.gradle/caches/transforms-3/07ebee4c8956f15939337706672c70c7/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:26:5-28:35
+18        android:glEsVersion="0x00020000"
+18-->[com.google.android.gms:play-services-maps:18.0.2] /Users/sangholee/.gradle/caches/transforms-3/07ebee4c8956f15939337706672c70c7/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:27:9-41
+19        android:required="true" />
+19-->[com.google.android.gms:play-services-maps:18.0.2] /Users/sangholee/.gradle/caches/transforms-3/07ebee4c8956f15939337706672c70c7/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:28:9-32
+20
+21    <queries>
+21-->[com.google.android.gms:play-services-maps:18.0.2] /Users/sangholee/.gradle/caches/transforms-3/07ebee4c8956f15939337706672c70c7/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:30:5-34:15
+22
+23        <!-- Needs to be explicitly declared on Android R+ -->
+24        <package android:name="com.google.android.apps.maps" />
+24-->[com.google.android.gms:play-services-maps:18.0.2] /Users/sangholee/.gradle/caches/transforms-3/07ebee4c8956f15939337706672c70c7/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:9-64
+24-->[com.google.android.gms:play-services-maps:18.0.2] /Users/sangholee/.gradle/caches/transforms-3/07ebee4c8956f15939337706672c70c7/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:18-61
+25    </queries>
+26
+27    <application
+27-->/Users/sangholee/Documents/GitHub/android/project2/app/src/main/AndroidManifest.xml:9:5-37:19
+28        android:allowBackup="true"
+28-->/Users/sangholee/Documents/GitHub/android/project2/app/src/main/AndroidManifest.xml:10:9-35
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.7.0] /Users/sangholee/.gradle/caches/transforms-3/b9e4376e452ce4f1a2bbb1fc4b534124/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+30        android:debuggable="true"
+31        android:icon="@mipmap/ic_launcher"
+31-->/Users/sangholee/Documents/GitHub/android/project2/app/src/main/AndroidManifest.xml:11:9-43
+32        android:label="@string/app_name"
+32-->/Users/sangholee/Documents/GitHub/android/project2/app/src/main/AndroidManifest.xml:12:9-41
+33        android:roundIcon="@mipmap/ic_launcher_round"
+33-->/Users/sangholee/Documents/GitHub/android/project2/app/src/main/AndroidManifest.xml:13:9-54
+34        android:supportsRtl="true"
+34-->/Users/sangholee/Documents/GitHub/android/project2/app/src/main/AndroidManifest.xml:14:9-35
+35        android:testOnly="true"
+36        android:theme="@style/Theme.Hankki"
+36-->/Users/sangholee/Documents/GitHub/android/project2/app/src/main/AndroidManifest.xml:16:9-44
+37        android:usesCleartextTraffic="true" >
+37-->/Users/sangholee/Documents/GitHub/android/project2/app/src/main/AndroidManifest.xml:15:9-44
+38        <activity
+38-->/Users/sangholee/Documents/GitHub/android/project2/app/src/main/AndroidManifest.xml:17:9-25:20
+39            android:name="com.example.hankki.MainActivity"
+39-->/Users/sangholee/Documents/GitHub/android/project2/app/src/main/AndroidManifest.xml:18:13-41
+40            android:exported="true" >
+40-->/Users/sangholee/Documents/GitHub/android/project2/app/src/main/AndroidManifest.xml:19:13-36
+41            <intent-filter>
+41-->/Users/sangholee/Documents/GitHub/android/project2/app/src/main/AndroidManifest.xml:20:13-24:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->/Users/sangholee/Documents/GitHub/android/project2/app/src/main/AndroidManifest.xml:21:17-69
+42-->/Users/sangholee/Documents/GitHub/android/project2/app/src/main/AndroidManifest.xml:21:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->/Users/sangholee/Documents/GitHub/android/project2/app/src/main/AndroidManifest.xml:23:17-77
+44-->/Users/sangholee/Documents/GitHub/android/project2/app/src/main/AndroidManifest.xml:23:27-74
+45            </intent-filter>
+46        </activity>
+47        <activity android:name="com.example.hankki.PersonalActivity" />
+47-->/Users/sangholee/Documents/GitHub/android/project2/app/src/main/AndroidManifest.xml:26:9-53
+47-->/Users/sangholee/Documents/GitHub/android/project2/app/src/main/AndroidManifest.xml:26:19-51
+48        <activity android:name="com.example.hankki.RestaurantActivity" />
+48-->/Users/sangholee/Documents/GitHub/android/project2/app/src/main/AndroidManifest.xml:27:9-55
+48-->/Users/sangholee/Documents/GitHub/android/project2/app/src/main/AndroidManifest.xml:27:19-53
+49        <activity android:name="com.example.hankki.CafeteriaActivity" />
+49-->/Users/sangholee/Documents/GitHub/android/project2/app/src/main/AndroidManifest.xml:28:9-54
+49-->/Users/sangholee/Documents/GitHub/android/project2/app/src/main/AndroidManifest.xml:28:19-52
+50        <activity android:name="com.example.hankki.MatchingActivity" />
+50-->/Users/sangholee/Documents/GitHub/android/project2/app/src/main/AndroidManifest.xml:29:9-53
+50-->/Users/sangholee/Documents/GitHub/android/project2/app/src/main/AndroidManifest.xml:29:19-51
+51        <activity
+51-->/Users/sangholee/Documents/GitHub/android/project2/app/src/main/AndroidManifest.xml:30:9-31:44
+52            android:name="com.example.hankki.Res_Detail"
+52-->/Users/sangholee/Documents/GitHub/android/project2/app/src/main/AndroidManifest.xml:30:19-45
+53            android:exported="true" />
+53-->/Users/sangholee/Documents/GitHub/android/project2/app/src/main/AndroidManifest.xml:31:19-42
+54        <activity android:name="com.example.hankki.Menu_list" />
+54-->/Users/sangholee/Documents/GitHub/android/project2/app/src/main/AndroidManifest.xml:32:9-46
+54-->/Users/sangholee/Documents/GitHub/android/project2/app/src/main/AndroidManifest.xml:32:19-44
+55
+56        <meta-data
+56-->/Users/sangholee/Documents/GitHub/android/project2/app/src/main/AndroidManifest.xml:34:9-36:71
+57            android:name="com.google.android.geo.API_KEY"
+57-->/Users/sangholee/Documents/GitHub/android/project2/app/src/main/AndroidManifest.xml:35:13-58
+58            android:value="AIzaSyA67wZrd8OQ-QMni7EeW6sRDi3dL2KBKAk" />
+58-->/Users/sangholee/Documents/GitHub/android/project2/app/src/main/AndroidManifest.xml:36:13-68
+59        <!-- Needs to be explicitly declared on P+ -->
+60        <uses-library
+60-->[com.google.android.gms:play-services-maps:18.0.2] /Users/sangholee/.gradle/caches/transforms-3/07ebee4c8956f15939337706672c70c7/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:39:9-41:40
+61            android:name="org.apache.http.legacy"
+61-->[com.google.android.gms:play-services-maps:18.0.2] /Users/sangholee/.gradle/caches/transforms-3/07ebee4c8956f15939337706672c70c7/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:40:13-50
+62            android:required="false" />
+62-->[com.google.android.gms:play-services-maps:18.0.2] /Users/sangholee/.gradle/caches/transforms-3/07ebee4c8956f15939337706672c70c7/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:41:13-37
+63
+64        <activity
+64-->[com.google.android.gms:play-services-base:18.0.1] /Users/sangholee/.gradle/caches/transforms-3/9c84058cc8145496fa61d3ab15374b21/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+65            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+65-->[com.google.android.gms:play-services-base:18.0.1] /Users/sangholee/.gradle/caches/transforms-3/9c84058cc8145496fa61d3ab15374b21/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+66            android:exported="false"
+66-->[com.google.android.gms:play-services-base:18.0.1] /Users/sangholee/.gradle/caches/transforms-3/9c84058cc8145496fa61d3ab15374b21/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+67            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+67-->[com.google.android.gms:play-services-base:18.0.1] /Users/sangholee/.gradle/caches/transforms-3/9c84058cc8145496fa61d3ab15374b21/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+68
+69        <meta-data
+69-->[com.google.android.gms:play-services-basement:18.0.0] /Users/sangholee/.gradle/caches/transforms-3/7b0aa70a43263ee3ec23c54e2321a077/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+70            android:name="com.google.android.gms.version"
+70-->[com.google.android.gms:play-services-basement:18.0.0] /Users/sangholee/.gradle/caches/transforms-3/7b0aa70a43263ee3ec23c54e2321a077/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+71            android:value="@integer/google_play_services_version" />
+71-->[com.google.android.gms:play-services-basement:18.0.0] /Users/sangholee/.gradle/caches/transforms-3/7b0aa70a43263ee3ec23c54e2321a077/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+72
+73        <provider
+73-->[androidx.emoji2:emoji2:1.0.0] /Users/sangholee/.gradle/caches/transforms-3/4d40ec21232b611dd716b892ede208d6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+74            android:name="androidx.startup.InitializationProvider"
+74-->[androidx.emoji2:emoji2:1.0.0] /Users/sangholee/.gradle/caches/transforms-3/4d40ec21232b611dd716b892ede208d6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+75            android:authorities="com.example.hankki.androidx-startup"
+75-->[androidx.emoji2:emoji2:1.0.0] /Users/sangholee/.gradle/caches/transforms-3/4d40ec21232b611dd716b892ede208d6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+76            android:exported="false" >
+76-->[androidx.emoji2:emoji2:1.0.0] /Users/sangholee/.gradle/caches/transforms-3/4d40ec21232b611dd716b892ede208d6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+77            <meta-data
+77-->[androidx.emoji2:emoji2:1.0.0] /Users/sangholee/.gradle/caches/transforms-3/4d40ec21232b611dd716b892ede208d6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+78                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+78-->[androidx.emoji2:emoji2:1.0.0] /Users/sangholee/.gradle/caches/transforms-3/4d40ec21232b611dd716b892ede208d6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+79                android:value="androidx.startup" />
+79-->[androidx.emoji2:emoji2:1.0.0] /Users/sangholee/.gradle/caches/transforms-3/4d40ec21232b611dd716b892ede208d6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+80            <meta-data
+80-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/sangholee/.gradle/caches/transforms-3/b5a10263a72c0b80aefb6f8f76c83ace/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+81                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+81-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/sangholee/.gradle/caches/transforms-3/b5a10263a72c0b80aefb6f8f76c83ace/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+82                android:value="androidx.startup" />
+82-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/sangholee/.gradle/caches/transforms-3/b5a10263a72c0b80aefb6f8f76c83ace/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+83        </provider>
+84    </application>
+85
+86</manifest>

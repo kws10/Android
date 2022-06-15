@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/Users/sangholee/Documents/GitHub/android/res_list2/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/restaurant_main.xml",
+        "source": "/Users/sangholee/Documents/GitHub/android/res_list2/app/src/main/res/layout/restaurant_main.xml"
+    },
+    {
+        "merged": "/Users/sangholee/Documents/GitHub/android/res_list2/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/restaurant_item.xml",
+        "source": "/Users/sangholee/Documents/GitHub/android/res_list2/app/src/main/res/layout/restaurant_item.xml"
+    },
+    {
+        "merged": "/Users/sangholee/Documents/GitHub/android/res_list2/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/research_main.xml",
+        "source": "/Users/sangholee/Documents/GitHub/android/res_list2/app/src/main/res/layout/research_main.xml"
+    },
+    {
+        "merged": "/Users/sangholee/Documents/GitHub/android/res_list2/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment1.xml",
+        "source": "/Users/sangholee/Documents/GitHub/android/res_list2/app/src/main/res/layout/fragment1.xml"
+    },
+    {
+        "merged": "/Users/sangholee/Documents/GitHub/android/res_list2/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/Users/sangholee/Documents/GitHub/android/res_list2/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/sangholee/Documents/GitHub/android/res_list2/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/restaurant_detail.xml",
+        "source": "/Users/sangholee/Documents/GitHub/android/res_list2/app/src/main/res/layout/restaurant_detail.xml"
+    },
+    {
+        "merged": "/Users/sangholee/Documents/GitHub/android/res_list2/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment2.xml",
+        "source": "/Users/sangholee/Documents/GitHub/android/res_list2/app/src/main/res/layout/fragment2.xml"
+    },
+    {
+        "merged": "/Users/sangholee/Documents/GitHub/android/res_list2/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/menu_item.xml",
+        "source": "/Users/sangholee/Documents/GitHub/android/res_list2/app/src/main/res/layout/menu_item.xml"
+    },
+    {
+        "merged": "/Users/sangholee/Documents/GitHub/android/res_list2/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/menu_list.xml",
+        "source": "/Users/sangholee/Documents/GitHub/android/res_list2/app/src/main/res/layout/menu_list.xml"
+    },
+    {
+        "merged": "/Users/sangholee/Documents/GitHub/android/res_list2/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment3.xml",
+        "source": "/Users/sangholee/Documents/GitHub/android/res_list2/app/src/main/res/layout/fragment3.xml"
+    }
+]

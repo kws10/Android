@@ -1,0 +1,186 @@
+[
+    {
+        "merged": "/Users/sangholee/Documents/GitHub/android/project2/app/build/intermediates/merged_res/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/sangholee/Documents/GitHub/android/project2/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/sangholee/Documents/GitHub/android/project2/app/build/intermediates/merged_res/debug/layout_activity_cafeteria.xml.flat",
+        "source": "/Users/sangholee/Documents/GitHub/android/project2/app/src/main/res/layout/activity_cafeteria.xml"
+    },
+    {
+        "merged": "/Users/sangholee/Documents/GitHub/android/project2/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/sangholee/Documents/GitHub/android/project2/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/sangholee/Documents/GitHub/android/project2/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/sangholee/Documents/GitHub/android/project2/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/sangholee/Documents/GitHub/android/project2/app/build/intermediates/merged_res/debug/drawable_backgrouder.xml.flat",
+        "source": "/Users/sangholee/Documents/GitHub/android/project2/app/src/main/res/drawable/backgrouder.xml"
+    },
+    {
+        "merged": "/Users/sangholee/Documents/GitHub/android/project2/app/build/intermediates/merged_res/debug/layout_activity_restaurant.xml.flat",
+        "source": "/Users/sangholee/Documents/GitHub/android/project2/app/src/main/res/layout/activity_restaurant.xml"
+    },
+    {
+        "merged": "/Users/sangholee/Documents/GitHub/android/project2/app/build/intermediates/merged_res/debug/drawable_home.png.flat",
+        "source": "/Users/sangholee/Documents/GitHub/android/project2/app/src/main/res/drawable/home.png"
+    },
+    {
+        "merged": "/Users/sangholee/Documents/GitHub/android/project2/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/sangholee/Documents/GitHub/android/project2/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/sangholee/Documents/GitHub/android/project2/app/build/intermediates/merged_res/debug/drawable_bbq.jpeg.flat",
+        "source": "/Users/sangholee/Documents/GitHub/android/project2/app/src/main/res/drawable/bbq.jpeg"
+    },
+    {
+        "merged": "/Users/sangholee/Documents/GitHub/android/project2/app/build/intermediates/merged_res/debug/layout_fragment_image.xml.flat",
+        "source": "/Users/sangholee/Documents/GitHub/android/project2/app/src/main/res/layout/fragment_image.xml"
+    },
+    {
+        "merged": "/Users/sangholee/Documents/GitHub/android/project2/app/build/intermediates/merged_res/debug/drawable_marker.png.flat",
+        "source": "/Users/sangholee/Documents/GitHub/android/project2/app/src/main/res/drawable/marker.png"
+    },
+    {
+        "merged": "/Users/sangholee/Documents/GitHub/android/project2/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/sangholee/Documents/GitHub/android/project2/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/sangholee/Documents/GitHub/android/project2/app/build/intermediates/merged_res/debug/layout_fragment_byeolbit.xml.flat",
+        "source": "/Users/sangholee/Documents/GitHub/android/project2/app/src/main/res/layout/fragment_byeolbit.xml"
+    },
+    {
+        "merged": "/Users/sangholee/Documents/GitHub/android/project2/app/build/intermediates/merged_res/debug/drawable_profile.png.flat",
+        "source": "/Users/sangholee/Documents/GitHub/android/project2/app/src/main/res/drawable/profile.png"
+    },
+    {
+        "merged": "/Users/sangholee/Documents/GitHub/android/project2/app/build/intermediates/merged_res/debug/drawable_img.png.flat",
+        "source": "/Users/sangholee/Documents/GitHub/android/project2/app/src/main/res/drawable/img.png"
+    },
+    {
+        "merged": "/Users/sangholee/Documents/GitHub/android/project2/app/build/intermediates/merged_res/debug/font_jalnan.ttf.flat",
+        "source": "/Users/sangholee/Documents/GitHub/android/project2/app/src/main/res/font/jalnan.ttf"
+    },
+    {
+        "merged": "/Users/sangholee/Documents/GitHub/android/project2/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/sangholee/Documents/GitHub/android/project2/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/sangholee/Documents/GitHub/android/project2/app/build/intermediates/merged_res/debug/drawable_search_bar.xml.flat",
+        "source": "/Users/sangholee/Documents/GitHub/android/project2/app/src/main/res/drawable/search_bar.xml"
+    },
+    {
+        "merged": "/Users/sangholee/Documents/GitHub/android/project2/app/build/intermediates/merged_res/debug/drawable_matching.png.flat",
+        "source": "/Users/sangholee/Documents/GitHub/android/project2/app/src/main/res/drawable/matching.png"
+    },
+    {
+        "merged": "/Users/sangholee/Documents/GitHub/android/project2/app/build/intermediates/merged_res/debug/drawable_star.png.flat",
+        "source": "/Users/sangholee/Documents/GitHub/android/project2/app/src/main/res/drawable/star.png"
+    },
+    {
+        "merged": "/Users/sangholee/Documents/GitHub/android/project2/app/build/intermediates/merged_res/debug/drawable_lotte.jpeg.flat",
+        "source": "/Users/sangholee/Documents/GitHub/android/project2/app/src/main/res/drawable/lotte.jpeg"
+    },
+    {
+        "merged": "/Users/sangholee/Documents/GitHub/android/project2/app/build/intermediates/merged_res/debug/layout_menu_item.xml.flat",
+        "source": "/Users/sangholee/Documents/GitHub/android/project2/app/src/main/res/layout/menu_item.xml"
+    },
+    {
+        "merged": "/Users/sangholee/Documents/GitHub/android/project2/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/sangholee/Documents/GitHub/android/project2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/sangholee/Documents/GitHub/android/project2/app/build/intermediates/merged_res/debug/layout_activity_personal.xml.flat",
+        "source": "/Users/sangholee/Documents/GitHub/android/project2/app/src/main/res/layout/activity_personal.xml"
+    },
+    {
+        "merged": "/Users/sangholee/Documents/GitHub/android/project2/app/build/intermediates/merged_res/debug/layout_fragment_hanbit.xml.flat",
+        "source": "/Users/sangholee/Documents/GitHub/android/project2/app/src/main/res/layout/fragment_hanbit.xml"
+    },
+    {
+        "merged": "/Users/sangholee/Documents/GitHub/android/project2/app/build/intermediates/merged_res/debug/drawable_restaurant.png.flat",
+        "source": "/Users/sangholee/Documents/GitHub/android/project2/app/src/main/res/drawable/restaurant.png"
+    },
+    {
+        "merged": "/Users/sangholee/Documents/GitHub/android/project2/app/build/intermediates/merged_res/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/sangholee/Documents/GitHub/android/project2/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/sangholee/Documents/GitHub/android/project2/app/build/intermediates/merged_res/debug/layout_activity_main.xml.flat",
+        "source": "/Users/sangholee/Documents/GitHub/android/project2/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/sangholee/Documents/GitHub/android/project2/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/sangholee/Documents/GitHub/android/project2/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/sangholee/Documents/GitHub/android/project2/app/build/intermediates/merged_res/debug/drawable_cafeteria.png.flat",
+        "source": "/Users/sangholee/Documents/GitHub/android/project2/app/src/main/res/drawable/cafeteria.png"
+    },
+    {
+        "merged": "/Users/sangholee/Documents/GitHub/android/project2/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/sangholee/Documents/GitHub/android/project2/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/sangholee/Documents/GitHub/android/project2/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/sangholee/Documents/GitHub/android/project2/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/sangholee/Documents/GitHub/android/project2/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/sangholee/Documents/GitHub/android/project2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/sangholee/Documents/GitHub/android/project2/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/sangholee/Documents/GitHub/android/project2/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/sangholee/Documents/GitHub/android/project2/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/sangholee/Documents/GitHub/android/project2/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/sangholee/Documents/GitHub/android/project2/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/sangholee/Documents/GitHub/android/project2/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/sangholee/Documents/GitHub/android/project2/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/sangholee/Documents/GitHub/android/project2/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/sangholee/Documents/GitHub/android/project2/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/sangholee/Documents/GitHub/android/project2/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/sangholee/Documents/GitHub/android/project2/app/build/intermediates/merged_res/debug/drawable_budae.jpeg.flat",
+        "source": "/Users/sangholee/Documents/GitHub/android/project2/app/src/main/res/drawable/budae.jpeg"
+    },
+    {
+        "merged": "/Users/sangholee/Documents/GitHub/android/project2/app/build/intermediates/merged_res/debug/layout_restaurant_item.xml.flat",
+        "source": "/Users/sangholee/Documents/GitHub/android/project2/app/src/main/res/layout/restaurant_item.xml"
+    },
+    {
+        "merged": "/Users/sangholee/Documents/GitHub/android/project2/app/build/intermediates/merged_res/debug/layout_activity_matching.xml.flat",
+        "source": "/Users/sangholee/Documents/GitHub/android/project2/app/src/main/res/layout/activity_matching.xml"
+    },
+    {
+        "merged": "/Users/sangholee/Documents/GitHub/android/project2/app/build/intermediates/merged_res/debug/layout_restaurant_detail.xml.flat",
+        "source": "/Users/sangholee/Documents/GitHub/android/project2/app/src/main/res/layout/restaurant_detail.xml"
+    },
+    {
+        "merged": "/Users/sangholee/Documents/GitHub/android/project2/app/build/intermediates/merged_res/debug/layout_menu_list.xml.flat",
+        "source": "/Users/sangholee/Documents/GitHub/android/project2/app/src/main/res/layout/menu_list.xml"
+    },
+    {
+        "merged": "/Users/sangholee/Documents/GitHub/android/project2/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/sangholee/Documents/GitHub/android/project2/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/sangholee/Documents/GitHub/android/project2/app/build/intermediates/merged_res/debug/layout_fragment_eunhasu.xml.flat",
+        "source": "/Users/sangholee/Documents/GitHub/android/project2/app/src/main/res/layout/fragment_eunhasu.xml"
+    },
+    {
+        "merged": "/Users/sangholee/Documents/GitHub/android/project2/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/sangholee/Documents/GitHub/android/project2/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    }
+]
